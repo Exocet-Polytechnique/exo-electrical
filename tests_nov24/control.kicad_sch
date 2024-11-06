@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4fc852bc-1b49-4b63-8282-ee41e2aa79dc")
+	(paper "A4")
+	(title_block
+		(title "Control System")
+		(date "2024-11-05")
+		(rev "v0.0.1")
+	)
+	(lib_symbols)
+)

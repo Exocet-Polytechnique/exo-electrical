@@ -3605,14 +3605,14 @@
 				(pin power_in line
 					(at -7.62 -5.08 0)
 					(length 2.54)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3623,14 +3623,14 @@
 				(pin power_in line
 					(at -7.62 -8.89 0)
 					(length 2.54)
-					(name ""
+					(name "VDC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3641,14 +3641,14 @@
 				(pin power_in line
 					(at 7.62 -5.08 180)
 					(length 2.54)
-					(name ""
+					(name "SIG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 		)
 		(uuid "a2cb336d-a03a-4436-a37e-d76a85b80358")
 	)
-	(text_box "Voltage divider to clamp 0-24 V from Transducer to 0-3.6 V for ADC pin\n"
+	(text_box "Voltage divider to clamp 0-5 V from Transducer to 0-3.3 V for ADC pin\n"
 		(exclude_from_sim no)
 		(at 217.424 16.256 0)
 		(size 41.148 6.35)
@@ -5725,80 +5725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transducer:SModel")
-		(at 237.49 27.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f02b224-2616-4c5f-956d-cb6ddc873543")
-		(property "Reference" "U7"
-			(at 237.49 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "cbc7e7b9-30db-4d3d-a306-3908b86796cf")
-		)
-		(pin ""
-			(uuid "4801b4a0-2abc-4579-8c4d-1a2a126a32f0")
-		)
-		(pin ""
-			(uuid "081f3568-835f-49f7-a287-3fda80f18d94")
-		)
-		(pin ""
-			(uuid "88e02705-af3a-4131-92e8-4aca9894a484")
-		)
-		(instances
-			(project ""
-				(path "/1b141601-8b93-4745-b924-cd53eb4183d9"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 143.51 0)
 		(unit 1)
@@ -5948,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "6.8K"
 			(at 226.06 48.26 90)
 			(effects
 				(font
@@ -6016,7 +5942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.6K"
+		(property "Value" "3.6K"
 			(at 222.25 39.3699 0)
 			(effects
 				(font
@@ -7184,6 +7110,80 @@
 			(project "test_hydrogene"
 				(path "/1b141601-8b93-4745-b924-cd53eb4183d9"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transducer:SModel")
+		(at 237.49 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71bcf3f4-40ba-4999-add4-59e92944bf27")
+		(property "Reference" "U7"
+			(at 237.49 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f19257e4-9f8d-44c2-851e-3c96455c19f6")
+		)
+		(pin "4"
+			(uuid "e15ad2cb-876f-4565-a794-220057104098")
+		)
+		(pin "1"
+			(uuid "bf28274f-bef3-4b1c-9cfb-60f37564cfc3")
+		)
+		(pin "2"
+			(uuid "3587d1e8-7094-4128-8a81-95409324c14d")
+		)
+		(instances
+			(project ""
+				(path "/1b141601-8b93-4745-b924-cd53eb4183d9"
+					(reference "U7")
 					(unit 1)
 				)
 			)

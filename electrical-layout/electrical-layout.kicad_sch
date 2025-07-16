@@ -982,7 +982,7 @@
 	(text_box "Connect all grounds to frame\n\nVERY IMPORTANT: to prevent sparks which could ignite H2"
 		(exclude_from_sim no)
 		(at 179.8975 44.7897 0)
-		(size 39.1775 21.2503)
+		(size 37.2725 9.8203)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1735,6 +1735,48 @@
 		(instances
 			(project "electrical-layout"
 				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 174.625 66.675)
+		(size 59.055 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86f73561-33e7-4ee1-aeca-93be9f30f6f7")
+		(property "Sheetname" "Cockpit"
+			(at 174.625 65.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cockpit.kicad_sch"
+			(at 174.625 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical-layout"
+				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
 					(page "2")
 				)
 			)
@@ -1777,7 +1819,7 @@
 		(instances
 			(project "electrical-layout"
 				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
-					(page "3")
+					(page "4")
 				)
 			)
 		)

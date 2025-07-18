@@ -10,700 +10,6 @@
 		(rev "v0.2.0")
 	)
 	(lib_symbols
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Exocet:Outboard_5.0"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Outboard_5.0_1_1"
-				(circle
-					(center 0 -3.81)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "M"
-					(at 0 -3.81 0)
-					(effects
-						(font
-							(size 1.6 1.6)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 -3.81 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Relay:Relay_SPST-NO"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Relay_SPST-NO"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay SPST, normally open, EN50005"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay?SPST*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Relay_SPST-NO_0_0"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Relay_SPST-NO_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Relay_SPST-NO_1_1"
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -999,10 +305,10 @@
 		)
 		(uuid "54b834da-f510-4b1b-9e63-ce8b607a847d")
 	)
-	(text_box "F1: supplied by motor manufacturer. Check installed fuse for size."
+	(text_box "Add junction part number"
 		(exclude_from_sim no)
-		(at 102.4795 100.9798 0)
-		(size 24.995 7.9984)
+		(at 89.535 101.6 0)
+		(size 47.625 13.335)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1017,23 +323,13 @@
 			)
 			(justify left top)
 		)
-		(uuid "86962544-1927-483f-80eb-80a49cd1cdb6")
+		(uuid "625d8e00-c3dc-4cc9-a13f-8fbe7ddb8608")
 	)
 	(junction
 		(at 175.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d8bc17b-23ea-47cf-9ad8-3ee676f87103")
-	)
-	(wire
-		(pts
-			(xy 59.69 93.98) (xy 62.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129db9d8-bcbf-4bfb-9e5c-463df233a900")
 	)
 	(wire
 		(pts
@@ -1055,25 +351,15 @@
 		)
 		(uuid "35ba272e-fe85-4a08-af25-1e4fd68b125c")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 91.44 91.44) (xy 93.98 91.44)
+			(xy 80.01 124.46) (xy 83.82 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b9e3bea-922b-49a7-9154-6fe9ecaccebe")
-	)
-	(wire
-		(pts
-			(xy 119.38 91.44) (xy 116.84 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f589e3-73e0-4dc7-9876-c1c2b36a8a59")
+		(uuid "3b25c232-86ef-4b12-b3dd-7fa910563992")
 	)
 	(wire
 		(pts
@@ -1085,35 +371,15 @@
 		)
 		(uuid "98eb1253-9e0d-4aba-8439-4f2e393ba424")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 40.64 104.14) (xy 62.23 104.14)
+			(xy 80.01 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb933c05-c30d-4d37-93a7-6cb56fae990d")
-	)
-	(wire
-		(pts
-			(xy 77.47 91.44) (xy 81.28 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd467028-e695-49e5-8e0a-66438a56e18f")
-	)
-	(wire
-		(pts
-			(xy 82.55 104.14) (xy 82.55 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb806640-7e41-4981-8d6e-c05b4f8bbd7f")
+		(uuid "a0c7a4a8-bd70-49aa-b839-a517152ca40a")
 	)
 	(wire
 		(pts
@@ -1125,57 +391,15 @@
 		)
 		(uuid "df06c089-7f59-4318-bdc1-17619a57f154")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 101.6 91.44) (xy 104.14 91.44)
+			(xy 83.82 90.17) (xy 83.82 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f44b9a85-e4ff-4215-99a2-0fb1377cb04e")
-	)
-	(wire
-		(pts
-			(xy 77.47 104.14) (xy 82.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf0ae8f-1a24-4380-941c-60e2a853ec9c")
-	)
-	(label "Motor Isolation HVIL"
-		(at 40.64 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2e4105c-adcd-4b67-ade5-cb2007b780c4")
-	)
-	(global_label "Power Bus -"
-		(shape input)
-		(at 119.38 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b11ed54-1013-4bb1-8d8f-e148e238725a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.9442 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "e657df8f-3c1f-4d74-8cad-a3ff8c4249a3")
 	)
 	(global_label "Power Bus -"
 		(shape passive)
@@ -1196,305 +420,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "Power Bus +"
-		(shape input)
-		(at 59.69 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3712481f-0dc2-4da5-9af4-47d027adaff3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.1258 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Exocet:Outboard_5.0")
-		(at 110.49 95.25 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c256866-10c9-4682-aa62-1b9aa3fe2a71")
-		(property "Reference" "U1"
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Outdrive 5.0"
-			(at 110.49 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8dfaae9a-9abf-4787-8899-5dc863d7cbb7")
-		)
-		(pin "1"
-			(uuid "de970195-2c5c-47c1-bca5-161a87b4e5d2")
-		)
-		(instances
-			(project "electrical-layout"
-				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 69.85 99.06 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31e496ef-c887-44ad-8439-909250ee84a2")
-		(property "Reference" "K1"
-			(at 69.85 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNCLEV100"
-			(at 69.85 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPST NO Contactor"
-			(at 69.85 111.125 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "c9c77fbc-06e9-46e0-9914-8d19171be2fb")
-		)
-		(pin "A2"
-			(uuid "07196bae-d92d-4bbb-b979-7ebe19c68f4b")
-		)
-		(pin "13"
-			(uuid "1360ea5c-e919-449f-a00c-8a5e81deed94")
-		)
-		(pin "A1"
-			(uuid "905d33d2-42ee-4408-a470-348c6aa2562f")
-		)
-		(instances
-			(project "electrical-layout"
-				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 86.36 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b75b936-4e1b-492c-903f-a5312ba38469")
-		(property "Reference" "SW1"
-			(at 86.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 86.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85d9bb83-1305-4b35-b8f1-b7bdd9306193")
-		)
-		(pin "1"
-			(uuid "7bba8049-8ef7-4f06-a0b6-46cc3e173d49")
-		)
-		(instances
-			(project "electrical-layout"
-				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "717db76e-e4f1-45c0-9dc9-165ce79df9fb")
-		(property "Reference" "#PWR01"
-			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fadc2e62-5169-4a4c-83ff-75a335cd8ef9")
-		)
-		(instances
-			(project "electrical-layout"
-				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
-					(reference "#PWR01")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1559,74 +484,6 @@
 			(project ""
 				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 97.79 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e67bf8ea-aa5f-4c97-9e6c-9edc87cb8827")
-		(property "Reference" "F1"
-			(at 97.79 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "??A"
-			(at 97.79 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 97.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b681eca-6d19-4a4e-bb47-0401badc4d81")
-		)
-		(pin "2"
-			(uuid "97f08329-ce74-42d5-a9fc-fa97a0b470ee")
-		)
-		(instances
-			(project "electrical-layout"
-				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -1713,8 +570,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "70032430-4a82-4b99-afda-96c95a255416")
-		(property "Sheetname" "Fuel Cells"
-			(at 22.4955 20.9958 0)
+		(property "Sheetname" "Control Box"
+			(at 22.225 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,14 +579,13 @@
 				(justify left top)
 			)
 		)
-		(property "Sheetfile" "fuel_cells.kicad_sch"
-			(at 21.9956 64.9629 0)
+		(property "Sheetfile" "control_box.kicad_sch"
+			(at 22.225 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1741,8 +597,8 @@
 		)
 	)
 	(sheet
-		(at 174.625 66.675)
-		(size 59.055 19.685)
+		(at 22.86 82.55)
+		(size 57.15 19.685)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1757,7 +613,7 @@
 		)
 		(uuid "86f73561-33e7-4ee1-aeca-93be9f30f6f7")
 		(property "Sheetname" "Cockpit"
-			(at 174.625 65.9634 0)
+			(at 22.86 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,12 +622,22 @@
 			)
 		)
 		(property "Sheetfile" "cockpit.kicad_sch"
-			(at 174.625 86.9446 0)
+			(at 22.86 102.8196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN" bidirectional
+			(at 80.01 90.17 0)
+			(uuid "3297ffc9-2934-4d66-91f4-0809c42af003")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1783,8 +649,8 @@
 		)
 	)
 	(sheet
-		(at 178.435 111.76)
-		(size 60.96 20.955)
+		(at 22.86 114.3)
+		(size 57.15 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1799,7 +665,7 @@
 		)
 		(uuid "89b0efde-dc9c-4c8a-897d-c39d3c85a4b7")
 		(property "Sheetname" "H2 Control"
-			(at 178.435 111.0484 0)
+			(at 22.86 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,12 +674,22 @@
 			)
 		)
 		(property "Sheetfile" "h2_control.kicad_sch"
-			(at 178.435 133.2996 0)
+			(at 22.86 135.8396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN" bidirectional
+			(at 80.01 124.46 0)
+			(uuid "cf3d6048-c5d3-4f90-a38a-06b1500bb5f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1839,8 +715,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f0ed08b7-644b-49b6-8718-21880d937aeb")
-		(property "Sheetname" "Power Battery"
-			(at 83.4833 20.9958 0)
+		(property "Sheetname" "Power System"
+			(at 83.185 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,14 +724,13 @@
 				(justify left top)
 			)
 		)
-		(property "Sheetfile" "power_battery.kicad_sch"
-			(at 82.9834 52.5331 0)
+		(property "Sheetfile" "power_system.kicad_sch"
+			(at 83.185 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(instances

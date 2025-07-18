@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3c7c73f1-e810-4bbf-9467-c5a2572b8c8a")
+	(paper "A4")
+	(title_block
+		(title "Control Box")
+		(date "2025-07-17")
+		(rev "0.1.0")
+	)
+	(lib_symbols)
+)

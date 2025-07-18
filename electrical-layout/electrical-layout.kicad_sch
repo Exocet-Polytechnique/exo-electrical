@@ -331,6 +331,22 @@
 		(color 0 0 0 0)
 		(uuid "8d8bc17b-23ea-47cf-9ad8-3ee676f87103")
 	)
+	(junction
+		(at 83.82 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb381194-b541-4e1a-9a4c-90b349258aed")
+	)
+	(bus
+		(pts
+			(xy 80.01 43.18) (xy 83.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9b0630-a682-4214-b4e5-f6dcb7e57714")
+	)
 	(wire
 		(pts
 			(xy 175.26 40.64) (xy 175.26 41.91)
@@ -400,6 +416,16 @@
 			(type default)
 		)
 		(uuid "e657df8f-3c1f-4d74-8cad-a3ff8c4249a3")
+	)
+	(bus
+		(pts
+			(xy 83.82 43.18) (xy 83.82 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9e3d6a-951d-41cf-99b9-cd51538c99d8")
 	)
 	(global_label "Power Bus -"
 		(shape passive)
@@ -557,7 +583,7 @@
 	)
 	(sheet
 		(at 21.9956 20.4959)
-		(size 58.9882 43.4913)
+		(size 58.0144 43.4913)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -586,6 +612,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN" bidirectional
+			(at 80.01 43.18 0)
+			(uuid "33aa0f4b-0f79-42e5-9f8e-b1f8772162a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -701,7 +737,7 @@
 		)
 	)
 	(sheet
-		(at 82.9834 20.4959)
+		(at 95.0484 19.2259)
 		(size 62.4875 43.4913)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -716,7 +752,7 @@
 		)
 		(uuid "f0ed08b7-644b-49b6-8718-21880d937aeb")
 		(property "Sheetname" "Power System"
-			(at 83.185 18.415 0)
+			(at 95.25 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +761,7 @@
 			)
 		)
 		(property "Sheetfile" "power_system.kicad_sch"
-			(at 83.185 64.77 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1783,6 +1783,48 @@
 		)
 	)
 	(sheet
+		(at 178.435 111.76)
+		(size 60.96 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89b0efde-dc9c-4c8a-897d-c39d3c85a4b7")
+		(property "Sheetname" "H2 Control"
+			(at 178.435 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h2_control.kicad_sch"
+			(at 178.435 133.2996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical-layout"
+				(path "/3f5ae950-00dd-4aca-9f75-0d872ff9560e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 82.9834 20.4959)
 		(size 62.4875 43.4913)
 		(exclude_from_sim no)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Overview")
-		(date "2025-03-15")
-		(rev "v0.2.0")
+		(date "2025-09-06")
+		(rev "v0.3.0")
 	)
 	(lib_symbols
 		(symbol "power:GND"
@@ -285,10 +285,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Connect all grounds to frame\n\nVERY IMPORTANT: to prevent sparks which could ignite H2"
+	(text_box "Connect earth/ground to frame and h2 piping.\n\nNOTE: motor manufacturer recommends not to connect either terminals to the frame. Perhaps only the shield should be connected to frame."
 		(exclude_from_sim no)
 		(at 179.8975 44.7897 0)
-		(size 37.2725 9.8203)
+		(size 46.7975 15.5353)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -304,26 +304,6 @@
 			(justify left top)
 		)
 		(uuid "54b834da-f510-4b1b-9e63-ce8b607a847d")
-	)
-	(text_box "Add junction part number"
-		(exclude_from_sim no)
-		(at 89.535 101.6 0)
-		(size 47.625 13.335)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "625d8e00-c3dc-4cc9-a13f-8fbe7ddb8608")
 	)
 	(junction
 		(at 175.26 40.64)

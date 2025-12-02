@@ -3241,8 +3241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "500W"
-			(at 211.455 114.3 0)
+		(property "Value" "1.5 (2kW)"
+			(at 211.455 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/en/product-1879456-3.html"
 			(at 209.55 113.03 0)
 			(effects
 				(font
@@ -3268,8 +3268,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Brake Resistor"
-			(at 211.455 111.76 0)
+		(property "Description" "Braking Resistor"
+			(at 211.455 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Part" "TE2000B1R5J"
+			(at 211.455 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

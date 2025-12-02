@@ -2274,6 +2274,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 86.36 80.01)
+		(end 116.84 109.22)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 050b8463-2a98-48e9-b2e1-464c52e0d4bb)
+	)
+	(text "Isolated from frame"
+		(exclude_from_sim no)
+		(at 87.63 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3920ae83-9ae2-4afd-9034-d9b8411ccc0c")
+	)
 	(text_box "Charge controller is expected to have:\n- Reverse current protection\n- Battery measuring sensors (charge, voltage, current)\n- Overcurrent/voltage protection\n- UART (or equivalent) connection for telemetry"
 		(exclude_from_sim no)
 		(at 117.475 111.76 0)
@@ -2293,6 +2316,26 @@
 			(justify left top)
 		)
 		(uuid "74f84b80-9de5-4711-8347-10c42bfaa176")
+	)
+	(text_box "Depending on the performance of our fuel cells, we might have them in series."
+		(exclude_from_sim no)
+		(at 59.69 101.6 0)
+		(size 22.86 9.525)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "836d9532-277b-40b7-b646-0619dbadd5b4")
 	)
 	(text_box "F1: supplied by motor manufacturer. Check installed fuse for size."
 		(exclude_from_sim no)
@@ -2754,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 107.95) (xy 86.36 107.95)
+			(xy 107.95 107.95) (xy 87.63 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2856,7 @@
 		(uuid "f30306df-cb05-4db6-894f-60b8e7b8a8ae")
 	)
 	(label "FC_ISOL_CONTROL"
-		(at 86.36 107.95 0)
+		(at 87.63 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)

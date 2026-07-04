@@ -706,7 +706,7 @@
         "uuid": "3f5ae950-00dd-4aca-9f75-0d872ff9560e"
       }
     ],
-    "used_designators": "J7,F1,U9,U12-13,U15,U25-29,K6,K12",
+    "used_designators": "#PWR1,J7,F1,U9,U12-13,U15,U25-29,K6,K12",
     "variants": []
   },
   "sheets": [
